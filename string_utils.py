@@ -29,5 +29,5 @@ def split_at_first_digit(formula):
     if l.isdigit():
       letters = formula[:count - 1]
       digits = formula[count - 1:]
-      return letters, int(digits_str)
+      return letters, int(digits)
   return formula, 1
